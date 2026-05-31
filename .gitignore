@@ -1,0 +1,27 @@
+# === CLion & JetBrains IDEs ===
+.idea/
+*.iws
+*.iml
+*.ipr
+cmake-build-*/
+
+# === CMake Build Artifacts ===
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# === Local Test I/O Cache ===
+in.txt
+out.txt
+
+# === OS Generated Files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
