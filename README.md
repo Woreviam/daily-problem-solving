@@ -1,6 +1,6 @@
 # Algorithmic Problem Solving Tracker
 
-This repository tracks my solutions to algorithmic challenges as part of my preparation for senior software engineering loops.
+This repository tracks my solutions to my daily algorithmic challenges 
 
 ## Problem Matrix
 
