@@ -61,8 +61,8 @@ int main() {
         std::cout << std::fixed << std::setprecision(9) << P.solve() << std::endl;
     }
 
-    return 0;
 
+#ifndef ONLINE_JUDGE
     constexpr double EPSILON = 1e-9;
 
     //UNIT TEST
@@ -106,4 +106,8 @@ int main() {
         if (std::fabs(P.solve() - expected) < EPSILON) std::cout << "T4 passed" << std::endl;
         else std::cout << "T4 failed" << std::endl;
     }
+
+#endif
+
+    return 0;
 }
