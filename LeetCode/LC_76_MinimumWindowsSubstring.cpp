@@ -57,7 +57,7 @@ int main() {
         if (expected == test.findMinimumWindow())std::cout << "T1 passed" << std::endl;
         else std::cout << "T1 failed" << std::endl;
     }
-    // T2: Corner case - only one character
+    // T2: Corner case - max size string
     {
         MinimumWindowSubstring test(std::string(100000, 'a'), std::string(100000, 'a'));
         std::string expected = std::string(100000, 'a');
